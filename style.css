@@ -8,3 +8,8 @@
 .container-padding {
     padding: 7rem 0;
 }
+.timing-bg-img {
+    background-image: url(./moritz-mentges-Z40sav8IYqQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
