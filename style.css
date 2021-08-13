@@ -13,3 +13,10 @@
     background-position: center;
     background-size: cover;
 }
+
+.weekly-deals {
+    background-image: url(./alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
