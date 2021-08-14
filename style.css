@@ -26,3 +26,15 @@
     background-size: cover;
     padding: 10rem;
 }
+.gallery {
+    background-image: url(./louis-hansel-restaurant-photographer-phEaeqe555M-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+}
+.online-reservation {
+    background-image: url(./brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+}
