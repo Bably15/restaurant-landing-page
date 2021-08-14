@@ -1,5 +1,5 @@
 .header-bg-image {
-    background-image: url(./lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-image: url(./annie-spratt-R3LcfTvcGWY-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -19,4 +19,11 @@
     background-size: cover;
     background-position: center;
     color: white;
+}
+.menu {
+    background-image: url(./ella-olsson-oPBjWBCcAEo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;\
+    
 }
