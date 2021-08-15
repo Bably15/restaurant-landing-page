@@ -1,3 +1,13 @@
+.text-primary {
+    color: rgb(240, 220, 110);
+}
+.text-secondary {
+    color: rosybrown;
+}
+.text-light {
+    color: white;
+}
+
 .header-bg-image {
     background-image: url(./assets/images/annie-spratt-R3LcfTvcGWY-unsplash.jpg);
     background-size: cover;
@@ -52,11 +62,11 @@
     padding-bottom: 6rem;
 }
 .testimonials {
-    background-image: url(./assets/images/neven-krcmarek-l9t8O7S7s18-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/neven-krcmarek-l9t8O7S7s18-unsplash.jpg);
     background-position: center;
     background-size: cover;
     padding: 10rem;
-    filter: brightness(50%);
 }
 .testimonials h3 {
     font-family: "cursive";
@@ -94,11 +104,8 @@
 .reservation-info {
     padding: 7rem;
 }
-.team {
-    padding: 8rem;
-}
-.team h2 {
-    color: rgb(253, 188, 102);
-    font-family: "Playball";
-    font-size: 60px;
+.font-heading {
+    color: burlywood;
+    font-family: cursive;
+    font-style: italic;
 }
