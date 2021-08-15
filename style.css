@@ -1,5 +1,5 @@
 .header-bg-image {
-    background-image: url(./annie-spratt-R3LcfTvcGWY-unsplash.jpg);
+    background-image: url(./assets/images/annie-spratt-R3LcfTvcGWY-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -9,47 +9,94 @@
     padding: 7rem 0;
 }
 .timing-bg-img {
-    background-image: url(./moritz-mentges-Z40sav8IYqQ-unsplash.jpg);
+    background-image: url(./assets/images/moritz-mentges-Z40sav8IYqQ-unsplash.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .weekly-deals {
-    background-image: url(./alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+    background-image: url(./assets/images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
     background-size: cover;
     background-position: center;
     color: white;
 }
 .menu {
-    background-image: url(./ella-olsson-oPBjWBCcAEo-unsplash.jpg);
+    background-image: url(./assets/images/ella-olsson-oPBjWBCcAEo-unsplash.jpg);
     background-position: center;
     background-size: cover;
     padding: 10rem;
 }
 .gallery {
-    background-image: url(./louis-hansel-restaurant-photographer-phEaeqe555M-unsplash.jpg);
+    background-image: url(./assets/images/louis-hansel-restaurant-photographer-phEaeqe555M-unsplash.jpg);
     background-size: cover;
     background-position: center;
     padding: 10rem;
+    filter: brightness(50%);
 }
 .online-reservation {
-    background-image: url(./brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
+    background-image: url(./assets/images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
+    filter: brightness(50%);
     background-size: cover;
     background-position: center;
     padding: 10rem;
 }
 .contacts {
-    background-image: url(./lum3n-RYqO8DhPg68-unsplash.jpg);
+    background-image: url(./assets/images/lum3n-RYqO8DhPg68-unsplash.jpg);
+    filter: brightness(50%);
     background-position: center;
     background-size: cover;
     padding: 10rem;
 }
 .contact-info {
-    padding: 5rem 0rem;
+    padding: 7rem 0rem;
+    padding-bottom: 6rem;
 }
 .testimonials {
-    background-image: url(./neven-krcmarek-l9t8O7S7s18-unsplash.jpg);
+    background-image: url(./assets/images/neven-krcmarek-l9t8O7S7s18-unsplash.jpg);
     background-position: center;
     background-size: cover;
     padding: 10rem;
+    filter: brightness(50%);
+}
+.testimonials h3 {
+    font-family: "cursive";
+}
+.bold-separator {
+    float: left;
+    width: 100%;
+    margin: 50px 0;
+    position: relative;
+}
+.bold-separator:before {
+    left: 30%;
+}
+.bold-separator:before,
+.bold-separator:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    top: 2px;
+    opacity: 0.3;
+    background-color: rgb(240, 220, 110);
+}
+.bold-separator span {
+    width: 6px;
+    height: 6px;
+    display: inline-table;
+    background: #ffffff;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.bold-separator:after {
+    right: 30%;
+}
+.separator {
+    width: 56px;
+    height: 24px;
+    margin: 10px auto 10px;
+    background: url(./color-separator.png);
+}
+.color-separator {
+    background: url(./color-separator.png);
 }
