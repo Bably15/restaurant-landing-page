@@ -82,7 +82,7 @@
 }
 .bold-separator span {
     width: 6px;
-    height: 6px;
+    height: 8px;
     display: inline-table;
     background: #ffffff;
     margin: 0 auto;
@@ -91,12 +91,14 @@
 .bold-separator:after {
     right: 30%;
 }
-.separator {
-    width: 56px;
-    height: 24px;
-    margin: 10px auto 10px;
-    background: url(./color-separator.png);
+.reservation-info {
+    padding: 7rem;
 }
-.color-separator {
-    background: url(./color-separator.png);
+.team {
+    padding: 8rem;
+}
+.team h2 {
+    color: rgb(253, 188, 102);
+    font-family: "Playball";
+    font-size: 60px;
 }
