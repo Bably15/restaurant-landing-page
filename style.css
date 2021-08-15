@@ -31,28 +31,31 @@
     color: white;
 }
 .menu {
-    background-image: url(./assets/images/ella-olsson-oPBjWBCcAEo-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/ella-olsson-oPBjWBCcAEo-unsplash.jpg);
     background-position: center;
     background-size: cover;
     padding: 10rem;
 }
 .gallery {
-    background-image: url(./assets/images/louis-hansel-restaurant-photographer-phEaeqe555M-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/louis-hansel-restaurant-photographer-phEaeqe555M-unsplash.jpg);
     background-size: cover;
     background-position: center;
     padding: 10rem;
-    filter: brightness(50%);
 }
 .online-reservation {
-    background-image: url(./assets/images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
-    filter: brightness(50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
+
     background-size: cover;
     background-position: center;
     padding: 10rem;
 }
 .contacts {
-    background-image: url(./assets/images/lum3n-RYqO8DhPg68-unsplash.jpg);
-    filter: brightness(50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/lum3n-RYqO8DhPg68-unsplash.jpg);
+
     background-position: center;
     background-size: cover;
     padding: 10rem;
@@ -104,7 +107,7 @@
 .reservation-info {
     padding: 7rem;
 }
-.font-heading {
+.heading-h2 {
     color: burlywood;
     font-family: cursive;
     font-style: italic;
