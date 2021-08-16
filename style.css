@@ -19,9 +19,11 @@
     padding: 7rem 0;
 }
 .timing-bg-img {
-    background-image: url(./assets/images/moritz-mentges-Z40sav8IYqQ-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/kobby-mendez-xBFTjrMIC0c-unsplash.jpg);
     background-position: center;
     background-size: cover;
+    padding: 10rem 0rem;
 }
 
 .weekly-deals {
@@ -63,6 +65,10 @@
 .contact-info {
     padding: 7rem 0rem;
     padding-bottom: 6rem;
+}
+.contact-form {
+    padding: 10rem 0rem;
+    background-color: burlywood;
 }
 .testimonials {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -111,4 +117,19 @@
     color: burlywood;
     font-family: cursive;
     font-style: italic;
+}
+.heading-h3:before {
+    left: -46px;
+}
+.heading-h3:before,
+.heading-h3:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    background: url(./bef-af.png) no-repeat center;
+    width: 26px;
+    height: 6px;
+}
+.heading-h3:after {
+    right: -46px;
 }
