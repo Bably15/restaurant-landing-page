@@ -18,19 +18,24 @@
 .container-padding {
     padding: 7rem 0;
 }
-.timing-bg-img {
+.timing {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(./assets/images/ash-edmonds-fsI-_MRsic0-unsplash.jpg);
     background-position: center;
     background-size: cover;
+    padding: 9rem 0rem;
+}
+.our-restorans {
     padding: 10rem 0rem;
 }
 
 .weekly-deals {
-    background-image: url(./assets/images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/hermes-rivera-Ww8eQWjMJWk-unsplash.jpg);
     background-size: cover;
     background-position: center;
     color: white;
+    padding: 7rem 0rem;
 }
 .menu {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -117,19 +122,4 @@
     color: burlywood;
     font-family: cursive;
     font-style: italic;
-}
-.heading-h3:before {
-    left: -46px;
-}
-.heading-h3:before,
-.heading-h3:after {
-    content: "";
-    position: absolute;
-    top: 12px;
-    background: url(./bef-af.png) no-repeat center;
-    width: 26px;
-    height: 6px;
-}
-.heading-h3:after {
-    right: -46px;
 }
