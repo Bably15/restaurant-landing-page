@@ -143,3 +143,8 @@ li {
     font-family: cursive;
     font-style: italic;
 }
+.menu-item-dot {
+    display: table-cell;
+    width: 88%;
+    border-bottom: 1px dotted #000;
+}
