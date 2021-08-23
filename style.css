@@ -148,3 +148,7 @@ li {
     width: 88%;
     border-bottom: 1px dotted #000;
 }
+.promotion-dot {
+    border-bottom: 2px dotted rgb(255, 252, 163);
+    width: 88%;
+}
