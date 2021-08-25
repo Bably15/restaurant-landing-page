@@ -24,7 +24,6 @@
         url(./assets/images/ash-edmonds-fsI-_MRsic0-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    padding: 9rem 0rem;
 }
 
 .weekly-deals {
@@ -33,7 +32,6 @@
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 7rem 0rem;
 }
 
 .menu {
@@ -41,25 +39,20 @@
         url(./assets/images/ella-olsson-oPBjWBCcAEo-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    padding: 10rem;
 }
 .gallery {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(./assets/images/louis-hansel-restaurant-photographer-phEaeqe555M-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    padding: 10rem;
 }
-.gallery-img {
-    padding: 7rem 0rem;
-}
+
 .online-reservation {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(./assets/images/brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
 
     background-size: cover;
     background-position: center;
-    padding: 10rem;
 }
 .contacts {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -67,13 +60,8 @@
 
     background-position: center;
     background-size: cover;
-    padding: 10rem;
 }
 
-.contact-form {
-    padding: 10rem 0rem;
-    background-color: burlywood;
-}
 .testimonials {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(./assets/images/neven-krcmarek-l9t8O7S7s18-unsplash.jpg);
